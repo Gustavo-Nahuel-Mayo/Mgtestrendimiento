@@ -316,6 +316,16 @@ nav ul li a:hover{
 
 @media handheld, only screen and (max-width: 1280px){
 
+    .w1 {
+        display:none;
+    }
+    .w2{
+        display: none;
+    }
+    .bg_color{
+        border-radius: 0px;
+        height: 60px;
+    }    
 
     .cover{
         width: fit-content;
@@ -1095,7 +1105,7 @@ form {
   
     /* Hacer coincidir los bordes del campo del formulario */
     border:rgba(0, 0, 0, 0.103);
-    border-radius: 7px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px black;
   }
   
   input:focus, #name
