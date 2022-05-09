@@ -316,16 +316,7 @@ nav ul li a:hover{
 
 @media handheld, only screen and (max-width: 1280px){
 
-    .w1 {
-        display:none;
-    }
-    .w2{
-        display: none;
-    }
-    .bg_color{
-        border-radius: 10px;
-        height: 50px;
-    }    
+
     .cover{
         width: fit-content;
         text-align: center;
@@ -400,9 +391,17 @@ nav ul li a:hover{
         box-shadow: 3px 3px 3px #00000090;
     }
 
-    .container__vector img{
-        transform: scale(0);
+    .container__cover{
+        display: block;
+        
+    }
+    .container__vector{
+        transform: scale(30%);
         animation: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50%;
+ 
     }
 
     /* FOOT */
