@@ -396,7 +396,7 @@ nav ul li a:hover{
         
     }
     .container__vector{
-        transform: scale(30%);
+        transform: scale(0);
         animation: none;
         justify-content: center;
         align-items: center;
