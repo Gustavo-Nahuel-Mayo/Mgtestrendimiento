@@ -305,13 +305,15 @@ nav ul li a:hover{
     .bg_color{
         height: 80px;
         background-image: url(/img/MGTEST.gif) !important;
-        background-size: fill;
-        background-repeat: no-repeat;
-        justify-content: center;
-        align-items:baseline;
-        z-index: 0;
+        background-position: 26% 26%;
         
     }    
+
+    .cover{
+        text-align: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
 
     #conocenos{
         display: none;
@@ -781,8 +783,19 @@ body{
 /* Cards de evaluaciones */
 
 .seccion, #evaluaciones{
-    margin-top: 10px;
+    margin-top: 0px;
     flex: auto;
+    
+}
+#Card3d{
+    margin-bottom: 20px;
+}
+#evaluaciones{
+    background-color: #08f5e9ec;
+}
+
+#formulario{
+    background-color: #08d2f1;
 }
 .container__card1{
     max-width: 1200px;
